@@ -1,0 +1,116 @@
+/* nav section */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    padding-left:  5%;
+    padding-right:  5%;
+   
+  }
+
+  .nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  nav img {
+    width: 70px; 
+  }
+  
+  nav ul {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    padding: 20px;
+    gap: 10px;
+  }
+  .left-nav {
+    display: flex; 
+    gap: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+/* Main section */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+ background-image: linear-gradient(to right, rgb(45, 140, 247), rgb(108, 20, 135));
+}
+
+.form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border: solid rgb(71, 71, 71);
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  
+  input[type="text"], input[type="password"],input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    float: left; 
+    margin-right: 5px;
+  }
+  
+  .form-group label {
+    line-height: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #946cf0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ef4cd1;
+    scale: 105%;
+  }
+  
+  a {
+    color: #007bff; 
+    text-decoration: none;
+    display: flex; 
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    scale: 105%;
+  }
+

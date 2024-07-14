@@ -1,0 +1,154 @@
+ /* common style  */
+
+
+span {
+  color: rgb(238, 113, 250);
+}
+/* ,,,,,,,,,,Nav Section,,,,,,,,,, */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  nav img {
+    width: 70px;
+  }
+  
+  nav ul {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 20px;
+    gap: 10px;
+  }
+  .nav-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user {
+    background-color: rgb(125, 116, 252);
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 8px;
+  }
+  .left-nav {
+    display: flex;
+    gap: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .profile-img{
+    height: 30px;
+    width: 30px;
+  }
+  /* hero section */
+.hero{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    background: #6b8293;
+    height: 550px;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(161, 241, 247), rgb(221, 151, 248));
+  }
+  .hero-element{
+    display: inline-block;
+    text-align: center;
+    
+  
+  }
+  .search-input{
+    background-color: rgb(232, 215, 249);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+  
+  }
+  
+  .hero-button{
+    height: 80px;
+    width: 100px;
+    background: rgb(246, 99, 185);
+    color: antiquewhite;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+
+  }
+
+  .hero-button:hover{
+    background: rgb(63, 70, 247);
+  }
+  .hero h2 {
+    color: rgb(37, 78, 240);
+    font-size: 40px;
+  }
+  .hero-img{
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+  
+  }
+  .hero-service{
+    display: flex;
+    gap: 30px;
+    margin-top:30px;
+  }
+  .hero-service-element{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #dedddd;
+    height: 110px;
+    width: 105px;
+    border-radius: 10px;
+   padding: 5px;
+  }
+  .service-text{
+    text-decoration: none;
+    color: black;
+  }
+  .hero-service-element:hover{
+    scale: 110%;
+  }
+  .hero-service-element a:hover{
+    color:blue ;
+    scale: 110%;
+  }
